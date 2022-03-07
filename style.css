@@ -216,8 +216,22 @@ i{
 }
 
 #box6{
-    padding-top: 400px;
+    padding-top: 40px;
 }
+
+#box6 > .log, #apple{
+    color: #fff;
+    font-size: 34px;
+    font-weight: 450;
+}
+
+.tag{
+    padding-top: 260px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 480;
+}
+
 /* footer */
 
 .footer{
