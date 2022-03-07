@@ -8,6 +8,8 @@ body{
     font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* Navbar */
+
 .navbar{
     width: 100%;
     background-color: #333333;
@@ -41,19 +43,13 @@ body{
 
 .navbar a{
     text-decoration: none;
-    color: #FFFAFA;
+    color: rgba(204, 204, 204);
 }
 
 .nav-heading{
     font-size: 14px;
     text-align: center;
-    letter-spacing: -0.374px;
-    line-height: 20.5883px;
-    text-decoration: none solid rgba(29, 29, 31);
-    word-spacing: 0px;
-    padding: 12px 0 12px 0;
-    background-position: 0% 0%;
-    color: #1D1D1F;
+    padding: 12px 12px;
     padding-top: 55px;
     background-color: #F5F5F7;
     margin-bottom: 20px;
@@ -61,12 +57,16 @@ body{
 
 a{
     text-decoration: none;
-    color: #0066cc;
+    color: #367cbe;
 }
 
 a:hover{
-    text-decoration: underline;
+    color: #fff;
+    transition: 0.5s;
+    text-decoration: none;
 }
+
+/* Section 1 */
 
 section{
     text-align: center;
@@ -85,7 +85,7 @@ section{
 
 .p1{
     font-size: 50px;
-    font-weight: 550;
+    font-weight: 600;
 }
 
 .p2{
@@ -107,13 +107,22 @@ section{
     gap: 35px;
 }
 
+.hlinks{
+    padding-top: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    font-weight: 400;
+}
+
 #poster2{
     background-image: url("./images/img2.jpeg");
 }
 
 #poster2 > .p1{
     font-size: 50px;
-    font-weight: 650;
+    font-weight: 620;
     margin-top: 20px;
     color: #fff;
 }
@@ -121,6 +130,10 @@ section{
 #poster2 > p{
     font-size: 26px;
     color: #E6C7C2;
+}
+#poster2 > .links{
+    font-size: 20px;
+    font-weight: 500;
 }
 
 i{
@@ -138,7 +151,7 @@ i{
 
 #m1, #h1{
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 620;
 }
 
 #m2{
@@ -148,7 +161,7 @@ i{
 #a1{
     font-size: 40px;
     font-weight: 600;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 #a2{
@@ -277,6 +290,7 @@ i{
     text-decoration: none;
 }
 
+
 .last_row{
     border-top: 1px solid #b4b4b4;
     padding-top: 6px;
@@ -310,3 +324,4 @@ i{
 .last_row div p{
     padding-right: 10px;
 }
+
