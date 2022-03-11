@@ -60,7 +60,7 @@ a{
     color: #367cbe;
 }
 
-a:hover{
+.navbar a:hover{
     color: #fff;
     transition: 0.5s;
     text-decoration: none;
